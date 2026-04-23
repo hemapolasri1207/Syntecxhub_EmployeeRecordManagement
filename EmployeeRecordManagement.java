@@ -29,8 +29,8 @@ public class EmployeeRecordManagement {
         int choice;
 
         do {
-        	 System.out.print("Enter your choice: \n");
             System.out.println("\n1.Add \n 2.Update \n 3.Delete \n 4.Display \n 5.Exit");
+            System.out.print("Enter your choice: \n");
             choice = sc.nextInt();
 
             switch (choice) {
